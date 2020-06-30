@@ -1,3 +1,8 @@
+<a href="https://www.buymeacoffee.com/NickPolychronakis" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" width="158" height="35" style="height: 25px !important;width: 158px !important;" ></a>
+
+If you like it, consider to buy me a coffee!
+
+
 # FlipAnimation
 
 With this function you can make any View to flip with a 3d rotation, and use it to create an illusion of a two side effect View.
