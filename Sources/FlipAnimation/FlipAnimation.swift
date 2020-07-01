@@ -8,7 +8,7 @@ extension View {
     ///   - frontSideVisible: True if the front side of the view is visible
     ///   - duration: The duration we want the animation to take place. Default 1.0 sec
     /// - Returns: It returns the same view with some modifiers attached
-    public func flip(frontSideVisible: Bool, duration: Double = 1.0) -> some View {
+    public func flip(frontSideVisible: Bool, duration: Double = 0.5) -> some View {
         return self
             .animation(Animation.linear(duration: 0.01).delay(duration/2.0), value: frontSideVisible)
             .rotation3DEffect(Angle(degrees: frontSideVisible ? 0.0 : 180), axis: (x: 0, y: 1, z: 0))
